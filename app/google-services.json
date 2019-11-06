@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023763313150",
+    "firebase_url": "https://ex84firebasestoraget.firebaseio.com",
+    "project_id": "ex84firebasestoraget",
+    "storage_bucket": "ex84firebasestoraget.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023763313150:android:f0abca4a90e7cdf09810af",
+        "android_client_info": {
+          "package_name": "com.ahnsafety.ex84firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023763313150-ef34nept64h078rj8bscl2ils2u2otqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgd5-btD8h84PX7Kqth3kWp5qaehUqwlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023763313150-ef34nept64h078rj8bscl2ils2u2otqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
