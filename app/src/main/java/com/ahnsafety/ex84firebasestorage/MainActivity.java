@@ -65,13 +65,6 @@ public class MainActivity extends AppCompatActivity {
     }//clickLoad method....
 
 
-    public void clickSelect(View view) {
-        //사진을 선택할 수 있는 Gallery앱 실행
-        Intent intent= new Intent(Intent.ACTION_PICK);
-        intent.setType("image/*");
-        startActivityForResult(intent, 10);
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -85,6 +78,13 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
+    }
+
+    public void clickSeleck(View view) {
+        //사진을 선택할 수 있는 Gallery앱 실행
+        Intent intent= new Intent(Intent.ACTION_PICK);
+        intent.setType("image/*");
+        startActivityForResult(intent, 10);
     }
 
     public void clickUpload(View view) {
@@ -115,6 +115,6 @@ public class MainActivity extends AppCompatActivity {
         });
         //업로드한 파일을 경로를 firebase DB에 저장하면 게시판같은 앱도 구현할 수 있음.
 
-
     }
+
 }

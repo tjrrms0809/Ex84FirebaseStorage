@@ -27,7 +27,7 @@
         android:textAllCaps="false"
         android:layout_gravity="right"
         android:backgroundTint="@color/colorAccent"
-        android:onClick="clickSeleck"/>
+        android:onClick="clickSeleck"/>clickSelect
 
     <Button
         android:layout_width="match_parent"
